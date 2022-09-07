@@ -48,6 +48,15 @@ header .header_container {
           align-items: center;
 }
 
+header .header_container a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
 header .header_container .logo {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -63,9 +72,7 @@ header .header_container .logo img {
   margin: auto;
 }
 
-/*
-#96c185
-*/
+/* Responsif */
 .landingPage_content {
   width: 90%;
   margin: auto;
