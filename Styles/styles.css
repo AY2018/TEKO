@@ -179,4 +179,102 @@ header .header_container .logo img {
     width: 100%;
   }
 }
+
+main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+}
+
+.mainLandingPage {
+  width: 70%;
+  height: 60vh;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  /* Form */
+}
+
+.mainLandingPage .logo {
+  width: 100%;
+}
+
+.mainLandingPage .textSimple {
+  text-align: center;
+}
+
+.mainLandingPage .landingPage_form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+}
+
+.mainLandingPage .landingPage_form input {
+  height: 40px;
+  width: 100%;
+}
+
+.mainLandingPage .landingPage_form .inputEmail {
+  margin: 10px 0;
+  padding: 5px 10px;
+}
+
+.mainLandingPage .landingPage_form .inputEmail:focus {
+  outline: none !important;
+  border: 2px solid #fecf84;
+}
+
+.mainLandingPage .landingPage_form .form-btn {
+  background-color: #62a04c;
+  border: none;
+  border-radius: 40px;
+  color: white;
+  -webkit-transition: 0.1s ease;
+  transition: 0.1s ease;
+}
+
+.mainLandingPage .landingPage_form .form-btn:hover {
+  font-weight: bold;
+  cursor: pointer;
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+  background-color: #80cd64;
+}
+
+@media (min-width: 425px) {
+  .mainLandingPage .logo {
+    max-width: 300px;
+  }
+  .mainLandingPage .textSimple {
+    max-width: 400px;
+  }
+  .mainLandingPage input {
+    max-width: 400px;
+  }
+}
 /*# sourceMappingURL=styles.css.map */
